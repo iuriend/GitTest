@@ -37,6 +37,19 @@ namespace WebApplication2.Controllers
             return BadRequest("Invalid Input");
         }
 
+        // GET api/values/sub/5/5
+        [HttpGet("multi/{firstNumber}/{secondNumber}")]
+        public IActionResult Multi(string firstNumber, string secondNumber)
+        {
+            if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
+            {
+                var sum = CovertToDecimal(firstNumber) * CovertToDecimal(secondNumber);
+                return Ok(sum.ToString());
+            }
+
+            return BadRequest("Invalid Input");
+        }
+
 
 
         private decimal CovertToDecimal(string number)

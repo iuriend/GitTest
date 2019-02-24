@@ -11799,11 +11799,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IURI\\Documents\\ProjetoGitTeste\\WebApplication2\\WebApplication2\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\IURI\\Documents\\GitTest\\WebApplication2\\WebApplication2\\Calculator.csproj",
       "projectName": "Calculator",
-      "projectPath": "C:\\Users\\IURI\\Documents\\ProjetoGitTeste\\WebApplication2\\WebApplication2\\Calculator.csproj",
+      "projectPath": "C:\\Users\\IURI\\Documents\\GitTest\\WebApplication2\\WebApplication2\\Calculator.csproj",
       "packagesPath": "C:\\Users\\IURI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IURI\\Documents\\ProjetoGitTeste\\WebApplication2\\WebApplication2\\obj\\",
+      "outputPath": "C:\\Users\\IURI\\Documents\\GitTest\\WebApplication2\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
